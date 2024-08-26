@@ -1,0 +1,44 @@
+.body {
+  background-color: #e4dccf;
+}
+.content {
+  display: none;
+}
+.content.active {
+  display: block;
+}
+.main-menu {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+h1.judul-menu {
+  margin-top: 100px;
+  text-align: center;
+  color: #576f72;
+}
+.kategori {
+  text-align: center;
+}
+.kategori button {
+  background-color: #e4dccf;
+  height: 35px;
+  width: 150px;
+  text-decoration: none;
+  color: #576f72;
+  border: 3px solid #576f72;
+  margin-top: 5px;
+}
+.kategori button:hover {
+  background-color: #576f72;
+  color: #e4dccf;
+}
+.kategori button.active-button {
+  background-color: #576f72;
+  color: #e4dccf;
+}
+@media (max-width: 821px) {
+  .kategori {
+    width: 80%;
+    margin: auto;
+  }
+}
